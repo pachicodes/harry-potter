@@ -7,9 +7,6 @@ function randomNum(max){
     return Math.floor(Math.random() * Math.floor(max));       
 };
 
-console.log(randomNum(25));
-
-
 btn.addEventListener('onclick', function(){
-
+    console.log(randomNum);
 });

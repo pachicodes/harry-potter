@@ -26,6 +26,7 @@ button {
     border: 1px solid #70389e;
     font-size: 20px;
     font-family: 'Inconsolata', monospace;
+    height: 45px;
 }
 
 button:hover{
@@ -62,4 +63,10 @@ a {
 
 a:hover {
     background-color: aqua;
+}
+
+@media (min-width: 1281px) {
+    main {
+        max-width: 60%;
+    }
 }
