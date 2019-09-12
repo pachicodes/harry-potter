@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'harry';
+    src: url('../fonts/harry_p/harryp__-webfont.woff2') format('woff2'),
+         url('../fonts/harry_p/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Inconsolata', monospace;
     font-size: 1em;
@@ -7,16 +15,25 @@ body {
 }
 
 h1 {
-    font-size: 28px;
-    padding: 20px; 
+    font-size: 42px;
+    padding: 20px;
+    font-family: 'harry';
+}
+
+button {
+    background-color: blueviolet;
+    color: antiquewhite;
+    border: 1px solid #70389e;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
 }
 
 main {
     background: #fff;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    height: 80vh;
+    width: 80%;
+    height: 70vh;
     margin: 0 auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
 }
