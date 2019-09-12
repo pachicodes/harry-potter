@@ -28,6 +28,12 @@ button {
     font-family: 'Inconsolata', monospace;
 }
 
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
 main {
     background: #fff;
     border-radius: 10px;
