@@ -1,3 +1,42 @@
 body {
     font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    background-color: rgb(36, 35, 35);
+    color: antiquewhite;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 20px; 
+}
+
+main {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 80vh;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    background-color: aqua;
 }
