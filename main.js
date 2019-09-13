@@ -1,11 +1,11 @@
-fetch('http://hp-api.herokuapp.com/api/characters')
-.then(characters => characters.json());
+const characters = fetch('http://hp-api.herokuapp.com/api/characters')
+.then(characters => characters.json())
 
-let btn = document.querySelector("[data-btn]");
+const btn = document.querySelector("[data-btn]");
 
-btn.addEventListener('onclick', function(){
-    function randomNum(max){
-        return Math.floor(Math.random() * Math.floor(max));      
-    };
-    console.log(randomNum);
+btn.addEventListener('click', function(){
+    const randomNum = Math.floor(Math.random() * Math.floor(25)); 
+    characters.then(character => console.log(character[randomNum]))
 });
+
+
