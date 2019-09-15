@@ -17,7 +17,7 @@ btn.addEventListener('click', function(){
         picture.setAttribute('src', img);
         
         const element = document.createElement('h2');               
-        const text = document.createTextNode(`"${name} is from ${house}"`);
+        const text = document.createTextNode(`"${name} is a ${house}"`);
         
         res.append(picture);
         element.append(text);
