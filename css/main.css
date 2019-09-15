@@ -68,6 +68,8 @@ a {
 
 img {
     max-height: 40vh;
+    max-width: 75%;
+    padding: 40px;
 }
 
 a:hover {
