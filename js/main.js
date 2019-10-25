@@ -26,7 +26,7 @@ btn.addEventListener('click', function(){
           document.getElementById( 'bg' ).style.backgroundColor = 'yellow';
 
         const element = document.createElement('h2');
-        const text = document.createTextNode(`"${name} Hogwarts house is a ${house}"`);
+        const text = document.createTextNode(`"${name} Hogwarts House is ${house}"`);
 
         res.append(picture);
         element.append(text);
