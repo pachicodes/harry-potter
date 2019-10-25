@@ -15,8 +15,7 @@ btn.addEventListener('click', function(){
 
         const picture = document.createElement('img');
         picture.setAttribute('src', img);
-
-        //code to change background colors based on house
+        
         if(house === "Gryffindor")
           document.getElementById( 'bg' ).style.backgroundColor = 'red';
         if(house === "Slytherin")
