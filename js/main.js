@@ -17,13 +17,13 @@ btn.addEventListener('click', function(){
         picture.setAttribute('src', img);
         
         if(house === "Gryffindor")
-          document.getElementById( 'bg' ).style.backgroundColor = 'red';
+          document.getElementById( 'bg' ).style.backgroundColor = #9d3133;
         if(house === "Slytherin")
-          document.getElementById( 'bg' ).style.backgroundColor = 'green';
+          document.getElementById( 'bg' ).style.backgroundColor = #00a86b;
         if(house === "Ravenclaw")
-          document.getElementById( 'bg' ).style.backgroundColor = 'blue';
+          document.getElementById( 'bg' ).style.backgroundColor = #63ACE5;
         if(house === "Hufflepuff")
-          document.getElementById( 'bg' ).style.backgroundColor = 'yellow';
+          document.getElementById( 'bg' ).style.backgroundColor = #FFFF7F;
 
         const element = document.createElement('h2');
         const text = document.createTextNode(`"${name} Hogwarts House is ${house}"`);
